@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        /* Add your CSS styles here */
+        
+       
+        .container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .cake {
+            margin-bottom: 20px;
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            text-align: center;
+        }
+        .cake img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .cake h2 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        .cake p {
+            margin-bottom: 10px;
+        }body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8c291; /* Set background color */
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px; /* Increased margin */
+            font-size: 1.2rem; /* Increased font size */
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .welcome {
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+    <h1>Our Delicious Cakes</h1>
+</header>
+
+<div class="container">
+    <div class="cake">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.RF-npsXIp5x4jIvpPilMsgHaLH&pid=Api&P=0&h=180" alt="Chocolate Cake">
+        <h2>Chocolate Cake</h2>
+        <p>$20</p>
+    </div>
+    <div class="cake">
+        <img src="https://www.julieseatsandtreats.com/wp-content/uploads/2011/06/Easy-Fresh-Strawberry-Cake-Slice.jpg" alt="Strawberry Cake">
+        <h2>Strawberry Cake</h2>
+        <p>$25</p>
+    </div>
+    <div class="cake">
+        <img src="https://www.shugarysweets.com/wp-content/uploads/2021/06/vanilla-cake-sprinkles.jpg" alt="Vanilla Cake">
+        <h2>Vanilla Cake</h2>
+        <p>$18</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Cake Shop</p>
+</footer>
+
+</body>
+</html>
